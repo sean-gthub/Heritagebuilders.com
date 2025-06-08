@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects | Heritage Builders</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Heritage Builders</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <i class="fas fa-search"></i>
+        </div>
+    </header>
+
+    <section class="projects-hero">
+        <div class="hero-overlay">
+            <h1>Our Preservation Projects</h1>
+            <p>Showcasing a century of architectural restoration excellence</p>
+        </div>
+    </section>
+
+    <section class="projects-intro">
+        <div class="container">
+            <h2>Featured Historic Restorations</h2>
+            <p>Since 1980, we've restored over 1,000 historic properties, preserving architectural heritage while adapting structures for modern use. Explore our portfolio of landmark projects.</p>
+        </div>
+    </section>
+
+    <section class="projects-filter">
+        <div class="container">
+            <div class="filter-options">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="institutional">Institutional</button>
+                <button class="filter-btn" data-filter="landmark">Landmark</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-gallery">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="commercial landmark">
+                    <div class="project-image">
+                        <img src="images/obsidian bank.jpg" alt="Obsidian Bank Restoration">
+                        <div class="project-overlay">
+                            <h3>Obsidian Bank</h3>
+                            <p>Complete restoration of 1920s financial institution</p>
+                            <a href="project-detail.html" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-year">2022</span>
+                        <span class="project-location">Downtown Historic District</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="institutional landmark">
+                    <div class="project-image">
+                        <img src="images/theatre.jpg" alt="Eureka Theater Restoration">
+                        <div class="project-overlay">
+                            <h3>Eureka Vision Theater</h3>
+                            <p>Historic movie palace revitalization</p>
+                            <a href="project-detail.html" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-year">2021</span>
+                        <span class="project-location">Arts & Culture Zone</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="commercial">
+                    <div class="project-image">
+                        <img src="images/rosten-building.jpg" alt="Roseton Building Restoration">
+                        <div class="project-overlay">
+                            <h3>Roseton Building</h3>
+                            <p>Landmark office building preservation</p>
+                            <a href="project-detail.html" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-year">2020</span>
+                        <span class="project-location">Financial District</span>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="institutional">
+                    <div class="project-image">
+                        <img src="images/19th century office.jpg" alt="Santa Solana Post Restoration">
+                        <div class="project-overlay">
+                            <h3>Santa Solana Post</h3>
+                            <p>19th century post office restoration</p>
+                            <a href="project-detail.html" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-year">2019</span>
+                        <span class="project-location">Old Town District</span>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card" data-category="residential landmark">
+                    <div class="project-image">
+                        <img src="images/victorian mansion.jpg" alt="Victorian Manor Restoration">
+                        <div class="project-overlay">
+                            <h3>Victorian Manor</h3>
+                            <p>Gilded Age mansion complete restoration</p>
+                            <a href="project-detail.html" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-year">2018</span>
+                        <span class="project-location">Heritage Heights</span>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card" data-category="commercial">
+                    <div class="project-image">
+                        <img src="images/1920 factory.jpg" alt="Industrial Lofts Conversion">
+                        <div class="project-overlay">
+                            <h3>Industrial Lofts</h3>
+                            <p>Adaptive reuse of 1920s factory</p>
+                            <a href="project-detail.html" class="view-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-year">2017</span>
+                        <span class="project-location">Riverside District</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="before-after">
+        <div class="container">
+            <h2>Transformation Gallery</h2>
+            <p>See the dramatic before-and-after results of our  work on this modern mansion</p>
+            
+            <div class="ba-container">
+                <div class="ba-slider">
+                    <div class="ba-slide">
+                        <div class="ba-image-container">
+                            <img src="images/before.jpg" alt="mansion Before Restoration" class="ba-image-before">
+                            <img src="images/after.jpg" alt="mansion After Restoration" class="ba-image-after">
+                        </div>
+                        <input type="range" min="0" max="100" value="50" class="ba-slider-input">
+                        <div class="ba-slider-handle"></div>
+                    </div>
+                    <div class="ba-caption">
+                        <h3>modern mansion remodelling</h3>
+                        <p>Complete facade remodelling including stone cleaning, ornamental metalwork repair, and window rehabilitation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="press-section">
+        <div class="container">
+            <h2>Featured In</h2>
+            <div class="press-logos">
+                <div class="press-logo">THE MIRROR WEEKLY</div>
+                <div class="press-logo">FRELLA MEDIA</div>
+                <div class="press-logo">SANTA SOLANA POST</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h3>Have a Historic Property in Need of Restoration?</h3>
+            <p>Contact us for a consultation with our preservation specialists</p>
+            <a href="contact.html" class="cta-button">Schedule Consultation</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Heritage Builders</h3>
+                <p>Preserving architectural history since 1902.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p>123 saint michaels Lane<br>San Giorgio Morgeto City</p>
+                <p>Phone:(44) 7564356839</p>
+                <p>Email: info@heritagebuilders.com</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Heritage Builders. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="projects-filter.js"></script>
+    <script src="before-after.js"></script>
+</body>
+</html>
